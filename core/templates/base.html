@@ -54,22 +54,22 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav visible-lg visible-sm visible-xs">
                 <li>
-                  <a href="index.html">Home</a>
+                  <a href="{% url 'home' %}">Home</a>
                 </li>
                 <li>
-                  <a href="lhico.html">LHiCo</a>
+                  <a href="{% url 'laboratorio' %}">LHiCo</a>
                 </li>
                 <li>
-                  <a href="#">Projetos</a>
+                  <a href="{% url 'projetos' %}">Projetos</a>
                 </li>
                 <li>
-                  <a href="#">Publicações</a>
+                  <a href="{% url 'publicacoes' %}">Publicações</a>
                 </li>
                 <li>
-                  <a href="./link.html">Links</a>
+                  <a href="{% url 'links' %}">Links</a>
                 </li>
                 <li>
-                  <a href="./contato.html">Contato</a>
+                  <a href="{% url 'contato' %}">Contato</a>
                 </li>
                 <link rel="stylesheet" href="estilo.css" type="text/css">
               </ul>

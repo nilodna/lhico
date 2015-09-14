@@ -7,6 +7,11 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = patterns('',
     url(r'^$', 'core.views.home', name='home'),
+    url(r'^laboratorio/', 'core.views.laboratorio', name='laboratorio'),
+    url(r'^projetos/', 'core.views.laboratorio', name='projetos'),
+    url(r'^publicacoes/', 'core.views.laboratorio', name='publicacoes'),
+    url(r'^links/', 'core.views.laboratorio', name='links'),
+    url(r'^contato/', 'core.views.laboratorio', name='contato'),
     #url(r'^portfolio/', 'core.views.portfolio', name='portfolio'),
     #url(r'^cv/', 'core.views.curriculum', name='curriculum'),
     url(r'^core/static/(?P<path>.*)$', 'django.views.static.serve', { 'document_root': settings.STATIC_ROOT, }),
