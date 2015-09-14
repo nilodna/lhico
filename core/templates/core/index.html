@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block conteudo %}
+            <!--                    C A R R O S S E L                 -->
+
+      <div class="row clearfix top-box">
+        <div class="col-md-12 column">
+          <div class="carousel slide" id="carousel-603201" style="margin: 0 auto;">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-603201" class="active" data-slide-to="0"></li>
+              <li data-slide-to="1" data-target="#carousel-603201" item=""></li>
+              <li data-slide-to="2" data-target="#carousel-603201"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+              <div class="item active">
+                <img alt="" src="{% static "core/images/teste.jpg" %}" style="position-relative;min-width: 100%;height: 530px;">
+                <div class="carousel-caption">
+                  <h4>
+                    <!-- TEXTO AQUI -->
+                  </h4>
+                  <p>
+                    <!-- TEXTO AQUI -->
+                  </p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img alt="" src="{% static "core/images/teste2.jpg" %}" style="position-relative;
+                                     min-width: 100%;
+                                 height: 530px;">
+                <div class="carousel-caption"></div>
+              </div>
+
+              <div class="item">
+                <img alt="" src="{% static "core/images/teste1.jpg" %}" style="position-relative;
+                                    min-width: 100%;
+                                height: 530px;">
+                <div class="carousel-caption">
+                  <h4>
+                    <!-- TEXTO AQUI -->
+                  </h4>
+                  <p>
+                    <!-- TEXTO AQUI -->
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a class="left carousel-control" href="#carousel-603201" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#carousel-603201" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+
+          </div>
+        </div>
+      </div>
+
+            <!--             F I M  D O  C A R R O S S E L            -->
+
+      <div class="row clearfix">
+        <div class="col-md-8 column conteudo visible-lg visible-md visible-sm visible-xs">
+          <h2>O Laboratório</h2>
+          <p>O Laboratório de Hidrodinâmica Costeira (LHiCo) foi criado em 28 de Abril
+            de 1992 para aglutinar e consolidar estudos que estavam sendo desenvolvidos
+            pelos Professores Belmiro Mendes de Castro Filho e Luiz Bruner de Miranda,
+            juntamente com seus alunos, no então Departamento de Oceanografia Física
+            do Instituto Oceanográfico da Universidade de São Paulo. As duas linhas
+            de pesquisa definidas inicialmente, e que permanecem até hoje, foram:</p>
+          <p></p>
+          <h4 style="font-weight: bold; font-size: 1.2em;">1) Hidrodinâmica da Plataforma Continental:</h4>Estudo da dinâmica das
+          águas da plataforma continental, incluindo a interação destas com águas
+          estuarinas e com águas oceânicas. Esses estudos incluem, por exemplo, correntes,
+          ondas, marés, frentes, ressurgências e a física da poluição marinha na
+          plataforma continental. Envolvem a coleta, análise e interpretação de dados,
+          bem como a construção e aplicação de modelos matemáticos, principalmente
+          numéricos, para simulação e previsão.
+          <p></p>
+          <p></p>
+          <h4 style="font-weight: bold; 1.2">2) Hidrodinâmica de Estuários:</h4>Estudo da oceanografia física de sistemas
+          estuarinos, incluindo processos de transporte, mistura e difusão, tanto
+          do ponto de vista observacional quanto teórico. Aborda também os processos
+          físicos relacionados a poluição estuarina, bem como a modelagem matemática
+          numérica hidrodinâmica e de qualidade de água.
+          <p></p>
+          <p>Do ponto de vista científico, essas duas linhas de pesquisa buscam um
+            melhor entendimento dos processos físicos que ocorrem nas águas costeiras
+            brasileiras, incluindo os estuários, a plataforma e o talude continentais.
+            Inserem-se, ainda, numa perspectiva global quando dirigem-se, por exemplo,
+            aos cálculos dos transportes de massa e de calor ao longo da costa brasileira,
+            relevantes para estudos de mudanças climáticas. As atividades dos pesquisadores
+            do LHiCo revestem-se, também, de importância sócio-econômica, fornecendo
+            subsídios para minimizar os impactos ambientais originários do aumento
+            populacional em áreas costeiras e das atividades econômicas resultantes.
+            Como exemplo, podemos mencionar a tecnologia desenvolvida para estudos
+            de impacto ambiental, incluindo modelagem e monitoramento da dispersão
+            de poluentes, tais como efluentes domésticos e industriais, incluindo o
+            planejamento e a operação de emissários submarinos de esgoto. Também a
+            indústria de exploração de óleo e gás, na área offshore, beneficia-se constantemente
+            dos trabalhos hidrodinâmicos, observacionais e de modelagem numérica, executados
+            no LHiCo.</p>
+          <p></p>
+        </div>
+        <div class="col-md-4 column sidebar visible-lg visible-md visible-sm visible-xs">
+          <h2>Vídeos</h2>
+          <div class="panel-group" id="panel-925563">
+            <div class="panel panel-default">
+              <!-- <div class=praticagem de são paulo imagens"panel-heading">
+                         <a id="modal-NOME" href="" class="panel-title collapsed" data-toggle="modal">Ultimos Vídeos</a>
+                    </div> --></div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a id="modal-NOME" href="https://www.youtube.com/watch?v=sDms5fZu3_U"
+                target="_blank" class="panel-title collapsed" data-toggle="modal">Estação Meteorológica</a>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a id="modal-NOME" href="https://www.youtube.com/watch?v=kX_g0X1rCWM"
+                target="_blank" class="panel-title collapsed" data-toggle="modal">LHiCo na Antártica</a>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a id="modal-NOME" href="https://www.youtube.com/watch?v=jlxn6WMo7qM&amp;feature=youtu.be"
+                target="_blank" class="panel-title collapsed" data-toggle="modal">Cruzeiro de Fundeios</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+{% endblock conteudo %}
